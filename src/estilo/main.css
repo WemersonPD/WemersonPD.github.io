@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box; 
+}
+
+.gridContainerGeral{
+    display: grid;
+    grid-template-rows: 91px 1fr 400px;
+    grid-template-areas: 
+    "headerGeral"
+    "mainGeral"
+    "footerGeral";
+}
+
+.headerGeral{
+    grid-area: headerGeral;
+    background-color: #75cc8f;
+    border-bottom: 1px solid #EAEAEA;
+}
+
+.mainGeral{
+    grid-area: mainGeral;
+    background-color: aqua;
+}
+
+.footergeral{
+    grid-area: footerGeral;
+    background-color: tomato;
+}
