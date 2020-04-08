@@ -2,13 +2,19 @@
   "name": "wemersonpd.github.io",
   "version": "1.0.0",
   "description": "Minha descrição",
-  "main": "index.js",
-  "dependencies": {},
+  "main": "server.js",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "multer": "^1.4.2",
+    "nodemon": "^2.0.2"
+  },
   "devDependencies": {
     "http-server": "^0.12.1"
   },
   "scripts": {
-    "start": "http-server -c-1"
+    "start": "nodemon server.js"
   },
   "repository": {
     "type": "git",
